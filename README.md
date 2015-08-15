@@ -11,5 +11,5 @@ Application container, don't forget to specify a password for `transmission` acc
     -e ADMIN_PASS=password \
     -v /local/dir/downloads:/var/lib/transmission-daemon/downloads \
     -v /local/dir/incomplete:/var/lib/transmission-daemon/incomplete \
-    elventear/transmission
+    zheli/32bit-docker-transmission
 ```
